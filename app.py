@@ -25,7 +25,7 @@ def recommend(Quote):
 st.title('Anime Quotes')
 
 selected_quote_name= st.selectbox(
-    "How would you like to be contacted?",
+    "Select Your Favorite Quote",
     Quotes_list_
 )
 
